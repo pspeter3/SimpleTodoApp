@@ -24,7 +24,8 @@
         android:id="@+id/btnAddItem"
         android:layout_alignBottom="@+id/etNewItem"
         android:layout_alignParentEnd="true"
-        android:layout_alignTop="@+id/etNewItem" />
+        android:layout_alignTop="@+id/etNewItem"
+        android:onClick="addTodoItem" />
 
     <ListView
         android:layout_width="wrap_content"
